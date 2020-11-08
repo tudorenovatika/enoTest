@@ -15,6 +15,8 @@ import Search from './components/Search'
 import {StyledLi, StyledApp, StyledMainContent, StyledUl, StyledListContainer, StyledInput, StyledInputContainer} from './App.styled';
 import { isEmptyStatement } from 'typescript';
 import UserComponent from './components/UserComponent';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 const entireUserList: User[] = getUserList();
 
 function App() {
@@ -67,6 +69,7 @@ function App() {
 
 
   return (
+
     <StyledApp>      
     <StyledMainContent>
     <StyledInputContainer>

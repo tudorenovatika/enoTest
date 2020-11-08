@@ -27,6 +27,13 @@ display:flex;
 padding: 0.3rem 0.5rem 0.3rem 0.5rem;
 margin-bottom:25px;
 font-weight:bold;
+background-color: white;
+transition: 0.3s;
+
+&:hover {
+    background-color: #717171;
+}
+
 @media screen and (min-width:2100px)
 {
     flex: 1 0 14%;
@@ -66,8 +73,6 @@ font-weight:bold;
 
 height:25px;
 border: solid 3px black;
-
-
 text-align: left;
 cursor: pointer;
 `
@@ -86,6 +91,7 @@ color:black;
 background-color:#7B7B7B;
 border-radius: 50%;
 font-size:15px;
+
 `
 
 export const StyledMainContent = styled.div`
@@ -129,7 +135,8 @@ font-weight:bold;
 export const StyledLiContent = styled.div`
 display:flex;
 flex-direction:row;
-margin-left:auto;    
+margin-left:auto;   
+
 `
 
 export const StyledListContainer = styled.div`
@@ -142,8 +149,12 @@ justify-content: flex-start;
 
 export const StyledInputContainer = styled.div`
 
+display:flex;
+flex-direction:row;
+
 @media screen and (max-width: 767px) {
     display:flex;
+    flex-direction:row;
     position:fixed;
     top:0px;
     left:0px;
@@ -157,6 +168,5 @@ export const StyledInputContainer = styled.div`
 
 @media screen and (min-width:768px) and (max-width: 1439px)
 {    
-   
 }
 `

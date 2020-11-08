@@ -23,7 +23,9 @@ function Search({changeUserList} : Props) {
 
   return (
     <>
-      <StyledInput  placeholder="Search" type="text" onChange={handleChange} value={searchValue}></StyledInput>      
+      <StyledInput  placeholder="Search user" type="text" onChange={handleChange} value={searchValue}></StyledInput> 
+
+      
     </>
   );
 }
